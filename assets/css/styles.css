@@ -220,7 +220,7 @@ img{
 /* Scroll top */
 .scrolltop{
   position: fixed;
-  right: 1rem;
+  right: 6rem;
   bottom: -20%;
   display: flex;
   justify-content: center;
@@ -544,7 +544,7 @@ img{
   }
 
   .home__img{
-    width: 500px;
+    width: 800px;
   }
 
   .about__container,

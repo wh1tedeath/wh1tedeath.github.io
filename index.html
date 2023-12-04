@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    
+    <!-- CSS for Dialogflow Messenger -->
+    <style>
+        df-messenger {
+            --df-messenger-bot-message: #FFFFFF;
+            --df-messenger-button-titlebar-color: #000000;
+            --df-messenger-chat-background-color: #FFFFFF;
+            --df-messenger-font-color: black;
+            --df-messenger-send-icon: #000000;
+            --df-messenger-user-message: #ff9901;
+            --df-messenger-button-titlebar-font-color : white;
+            --df-messenger-send-icon : ;
+        }
+    </style>
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,7 +26,7 @@
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Tasty Salad</title>
+        <title>Tasty Food</title>
     </head>
     <body>
 
@@ -47,8 +63,8 @@
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__data">
-                        <h1 class="home__title">Tasty Salad</h1>
-                        <h2 class="home__subtitle">Try the best Salad you <br> ever had.</h2>
+                        <h1 class="home__title">Tasty Foods</h1>
+                        <h2 class="home__subtitle">Try the best Biryani you <br> ever had.</h2>
                         <a href="#menu" class="button">View Menu</a>
                     </div>
     
@@ -61,8 +77,8 @@
                 <div class="about__container  bd-grid">
                     <div class="about__data">
                         <span class="section-subtitle about__initial">About us</span>
-                        <h2 class="section-title about__initial">We cook the best <br> salad around</h2>
-                        <p class="about__description">We cook the best salad in the entire city, with excellent customer service, the best ingredients at the best price, visit us.</p>
+                        <h2 class="section-title about__initial">We cook the best <br> cuisine around</h2>
+                        <p class="about__description">We cook the best cuisine's in the entire city, with excellent customer service, the best ingredients at the best price, visit us.</p>
                         <a href="#" class="button">Explore history</a>
                     </div>
 
@@ -295,8 +311,8 @@
                             </clipPath>
                             </defs>
                         </svg>
-                        <h3 class="services__title">Fast food Alternative</h3>
-                        <p class="services__description">Our salad is healthy and tasty and a great fast food alternative while being light on the pocket.</p>
+                        <h3 class="services__title">Healthy</h3>
+                        <p class="services__description">Our cuisine's are healthy and tasty and a great fast food alternative while being light on the stomach.</p>
                     </div>
 
                     <div class="services__content">
@@ -352,7 +368,7 @@
                                 </defs>
                         </svg>
                         <h3 class="services__title">Delivery</h3>
-                        <p class="services__description">We currently offer delivery in all the major parts of the city and our special packaging system ensures salad remains fresh till it reaches you.</p>
+                        <p class="services__description">We currently offer delivery in all the major parts of the city and our special packaging system ensures cuisine's remains fresh till it reaches you.</p>
                     </div>
                 </div>
             </section>
@@ -365,47 +381,47 @@
                 <div class="menu__container bd-grid">
                     <div class="menu__content">
                         <img src="assets/img/plate1.png" alt="" class="menu__img">
-                        <h3 class="menu__name">Barbecue salad</h3>
-                        <span class="menu__detail">Punchy Chicken</span>
-                        <span class="menu__preci">₹350.00</span>
+                        <h3 class="menu__name">Pav Bhaji</h3>
+                        <span class="menu__detail">Butter pao & bhaji</span>
+                        <span class="menu__preci">₹110.00</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/plate2.png" alt="" class="menu__img">
-                        <h3 class="menu__name">Salad with fish</h3>
-                        <span class="menu__detail">Grilled Tuna</span>
-                        <span class="menu__preci">₹450.00</span>
+                        <h3 class="menu__name">Masala Dosa</h3>
+                        <span class="menu__detail">Special Sambar</span>
+                        <span class="menu__preci">₹180.00</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
                     
                     <div class="menu__content">
                         <img src="assets/img/plate3.png" alt="" class="menu__img">
-                        <h3 class="menu__name">Spinach salad</h3>
-                        <span class="menu__detail">Green Golbin</span>
-                        <span class="menu__preci">$₹250</span>
+                        <h3 class="menu__name">Chole Bhature</h3>
+                        <span class="menu__detail">Soft Fluffy Bhature</span>
+                        <span class="menu__preci">$₹120</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
                 </div>
             </section>
 
 
-            <!--===== APP =======-->
-            <section class="app section bd-container">
-                <div class="app__container bd-grid">
-                    <div class="app__data">
-                        <span class="section-subtitle app__initial">App</span>
-                        <h2 class="section-title app__initial">App is available</h2>
-                        <p class="app__description">Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more.</p>
-                        <div class="app__stores">
-                            <a href="https://apps.apple.com/us/app/subway/id901941015" target="_blank"><img src="assets/img/app1.png" alt="" class="app__store"></a>
-                            <a href="https://play.google.com/store/apps/details?id=com.subway.mobile.subwayapp03&hl=en_IN&gl=US&pli=1" target="_blank" ><img src="assets/img/app2.png" alt="" class="app__store"></a>
-                        </div>
-                    </div>
+<!--            &lt;!&ndash;===== APP =======&ndash;&gt;-->
+<!--            <section class="app section bd-container">-->
+<!--                <div class="app__container bd-grid">-->
+<!--                    <div class="app__data">-->
+<!--                        <span class="section-subtitle app__initial">App</span>-->
+<!--                        <h2 class="section-title app__initial">App is available</h2>-->
+<!--                        <p class="app__description">Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more.</p>-->
+<!--                        <div class="app__stores">-->
+<!--                            <a href="https://apps.apple.com/us/app/subway/id901941015" target="_blank"><img src="assets/img/app1.png" alt="" class="app__store"></a>-->
+<!--                            <a href="https://play.google.com/store/apps/details?id=com.subway.mobile.subwayapp03&hl=en_IN&gl=US&pli=1" target="_blank" ><img src="assets/img/app2.png" alt="" class="app__store"></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
 
-                    <img src="assets/img/movil-app.png" alt="" class="app__img">
-                </div>
-            </section>
+<!--                    <img src="assets/img/movil-app.png" alt="" class="app__img">-->
+<!--                </div>-->
+<!--            </section>-->
         
 
             <!--========== CONTACT US ==========-->
@@ -417,9 +433,9 @@
                         <p class="contact__description">If you want to reserve a table in our restaurant, contact us and we will attend you quickly, with our 24/7 chat service.</p>
                     </div>
 
-                    <div class="contact__button">
-                        <a href="https://www.subway.com/en-in/contactus/contactusform" target="_blank" class="button">Contact us now</a>
-                    </div>
+<!--                    <div class="contact__button">-->
+<!--                        <a href="https://www.subway.com/en-in/contactus/contactusform" target="_blank" class="button">Contact us now</a>-->
+<!--                    </div>-->
                 </div>
             </section>
         </main>
@@ -469,7 +485,7 @@
                 </div>
             </div>
 
-            <p class="footer__copy">Made by :- 201446 & 201174</p>
+<!--            <p class="footer__copy">Made by :- 201446 & 201157</p>-->
         </footer>
 
         <!--========== SCROLL REVEAL ==========-->
@@ -477,5 +493,12 @@
 
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Tasty Food's Help-center"
+  agent-id="6acd7ced-a5fd-4272-ad99-cf8e96d62dce"
+  language-code="en"
+></df-messenger>
     </body>
 </html>x
